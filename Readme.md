@@ -1,4 +1,4 @@
-#Easy-Attend Codeforces
+# Easy-Attend Codeforces
 This Python script uses the Codeforces API to generate a report of solved problems for a given contest, and then merges that report with an attendance list to create a final report with Easy-Attend IDs.
 
 The script reads configuration data from a `config.json` file, which includes the Codeforces group ID, contest ID, page number, and Easy-Attend session ID. It then calls the Codeforces API to retrieve a JSON object with data on the contestants and their solved problems. The script calculate the number of problems solved by each contestant, and writes the results to a CSV file named `output.csv`.
@@ -11,7 +11,7 @@ To use this script, simply modify the `config.json` file to match your contest a
 
 This script is useful for anyone who needs to manage attendance for Codeforces contests using the Easy-Attend system, and wants to automate the process of marking attendees as attended. The script is open-source and can be customized and extended to meet the specific needs of different users and organizations.
 
-##Requirements
+## Requirements
 1. Python 3.x
 2. Requests
 3. CSV
@@ -19,7 +19,7 @@ This script is useful for anyone who needs to manage attendance for Codeforces c
 5. Math
 6. Pandas
 
-##installation of Requirements
+## installation of Requirements
 - Python 3.x is a programming language and can be downloaded from the official website: https://www.python.org/downloads/. Select the appropriate version for your operating system and follow the installation instructions.
 
 For the following modules, you can use pip, which is a package installer for Python:
