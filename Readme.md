@@ -33,10 +33,10 @@ For the following modules, you can use pip, which is a package installer for Pyt
 Make sure to use a version of pip that corresponds to the version of Python you have installed.
 You can check the version of Python you have by entering `python --version` in the command prompt or terminal.
 
-##Usage
+## Usage
 - Modify config.json to match your contest and Easy-Attend session
 - Run the script using python CF-EA.py
 - Wait for the script to generate the report.csv file and attendance macro will run automaticly 
-##Contributing
+## Contributing
 Contributions are welcome! If you have any ideas or suggestions for improving this script, please submit an issue or a pull request.
 
